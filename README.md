@@ -1,0 +1,153 @@
+# James H. Rosing
+
+**MD, FACS → AI Systems Engineer**
+
+```
+14 years with a scalpel taught me to solve problems under pressure.
+Now I architect systems that do the same.
+```
+
+---
+
+## About
+
+Board-certified plastic surgeon who learned to code by building production systems. After 14 years of clinical practice at [Allure MD](https://alluremd.com), I joined an engineering team as a junior developer—learning PRs, standups, testing discipline, and the craft of professional software development.
+
+Now I build AI systems that bridge healthcare and technology.
+
+---
+
+## Projects
+
+### Dashboard
+**Real-time 3D Multi-Entity Visualization**
+
+High-performance monitoring system rendering 100+ entities at 60fps with near-zero latency control.
+
+Three.js · React Three Fiber · WebGL Instancing · Web Workers · WebSockets · Redux · Next.js 15
+
+- 1000+ updates/second throughput
+- Worker thread spatial indexing
+- LOD + frustum culling optimization
+- Protocol Buffers serialization
+
+[View Repository](https://github.com/jamesrosing/dashboard)
+
+---
+
+### indexer-ai
+**Universal Code Indexer for AI Assistants**
+
+Enterprise-grade codebase indexer with parallel processing. Published on npm.
+
+TypeScript · Worker Threads · Tree-sitter · AST Parsing · Claude SDK
+
+- 3.6x faster with Worker Threads
+- 10,000 files in ~25 seconds
+- 40% memory reduction
+- 9 languages supported
+
+[View Repository](https://github.com/tacit-code/indexer) · [npm](https://www.npmjs.com/package/indexer-ai)
+
+---
+
+### zenoti-mcp-server
+**MCP Server for Spa/Wellness Management**
+
+Model Context Protocol server enabling AI agents to manage Zenoti operations—appointments, guests, billing.
+
+TypeScript · MCP Protocol · REST API · Zenoti API
+
+- 4-step service booking in single call
+- Guest lifecycle management
+- Invoice & payment processing
+- Agent-optimized responses
+
+[View Repository](https://github.com/tacit-code/zenoti-mcp-server)
+
+---
+
+### AEON `private`
+**Longevity Intelligence Platform**
+
+Multi-agent AI system for longevity optimization targeting insurers to demonstrate reduced claims via wearables.
+
+TypeScript · Python · Multi-Agent Orchestration · Real-time ETL
+
+- 400+ biomarker integration
+- 30+ concurrent AI agents
+- Multi-omics data pipelines
+- HIPAA-compliant infrastructure
+
+---
+
+### FAL `private`
+**Medical Practice Platform**
+
+Omnichannel patient communication system with practice management integration.
+
+Next.js · Twilio · Zenoti · Supabase · HIPAA
+
+- Facebook Messenger
+- Google Business Messages
+- SMS aggregation
+- Zenoti booking sync
+
+---
+
+### Sail `private`
+**Marine Wind Prediction**
+
+Real-time wind sensor and prediction model positioned 100m from shore.
+
+Python · Time Series · IoT · Weather APIs
+
+- Sailing enthusiasts
+- Marine businesses
+- Race committees
+- Harbor operations
+
+---
+
+## Stack
+
+**Languages:** TypeScript · Python · Go
+
+**Frontend:** React · Next.js · Three.js · Tailwind
+
+**Backend:** Node.js · PostgreSQL · Supabase · Redis
+
+**Infrastructure:** Vercel · Docker · GitHub Actions
+
+**AI:** Claude · OpenAI
+
+---
+
+## Background
+
+```yaml
+Medical:
+  credentials: MD, FACS
+  specialty: Plastic & Reconstructive Surgery
+  practice: Allure MD — Newport Beach, CA
+  experience: 14 years clinical
+  affiliations:
+    - American Board of Plastic Surgery
+    - American Society of Plastic Surgeons
+    - Allergan Partner (14+ years)
+
+Engineering:
+  path: Junior Developer → AI Systems Architect
+  learned:
+    - Code review discipline
+    - Testing practices
+    - Agile methodology
+    - Production error handling
+  published: npm (indexer-ai)
+```
+
+---
+
+[LinkedIn](https://linkedin.com/in/jamesrosing) · [Allure MD](https://alluremd.com) · [Email](mailto:jamesrosing@gmail.com)
+
+Newport Beach, CA
