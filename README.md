@@ -148,6 +148,6 @@ Engineering:
 
 ---
 
-[LinkedIn](https://linkedin.com/in/jamesrosing) · [Allure MD](https://alluremd.com) · [Email](mailto:jamesrosing@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/allure-md-james-rosing/) · [Allure MD](https://alluremd.com) · [Email](mailto:jamesrosing@gmail.com)
 
 Newport Beach, CA
