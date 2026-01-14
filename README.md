@@ -19,6 +19,54 @@ Now I build AI systems that bridge healthcare and technology.
 
 ## Projects
 
+### KEEL `private`
+**AI-Powered Pre-Med Guidance System**
+
+Multi-persona AI mentor synthesizing wisdom from nine distinct advisor perspectives into personalized counsel for pre-medical students.
+
+TypeScript · Next.js 14 · FastAPI · Claude API · PostgreSQL · pgvector
+
+- 9 advisor personas with dynamic weighting
+- Multi-persona synthesis engine
+- Opportunity matching with vector similarity
+- Commitment tracking and accountability
+
+[View Repository](https://github.com/tacit-code/KEEL)
+
+---
+
+### Impression
+**Design System Extraction Plugin**
+
+Claude Code plugin that extracts design systems from live websites using Playwright, outputs structured JSON, and generates Tailwind configs, CSS variables, shadcn themes, and W3C tokens.
+
+Node.js · Playwright · CIE ΔE 2000 · WCAG Auditing
+
+- Live URL extraction via browser automation
+- 8 pre-extracted references (Stripe, Notion, Linear, YouTube)
+- Multi-format output (Tailwind, CSS vars, shadcn, W3C, Figma)
+- Project comparison with gap analysis
+
+[View Repository](https://github.com/jamesrosing/impression)
+
+---
+
+### Peptide
+**Medical Provider Certification Platform**
+
+Comprehensive resource for medical providers seeking peptide therapy information, certification, and verified supplier connections.
+
+Next.js · TypeScript · Supabase · Tailwind CSS
+
+- Searchable peptide database
+- CME-accredited certification courses
+- Verified supplier directory
+- HIPAA-compliant professional forums
+
+[View Repository](https://github.com/jamesrosing/peptide)
+
+---
+
 ### Dashboard
 **Real-time 3D Multi-Entity Visualization**
 
@@ -106,6 +154,8 @@ Python · Time Series · IoT · Weather APIs
 - Marine businesses
 - Race committees
 - Harbor operations
+
+[View Repository](https://github.com/tacit-code/sail)
 
 ---
 
