@@ -6,6 +6,7 @@ Board-certified plastic surgeon (MD, FACS), building production infrastructure t
 
 ---
 
+[Tacit - Git Org](https://github.com/tacit-code)
 [Allure MD](https://alluremd.com) · [LinkedIn](https://www.linkedin.com/in/allure-md-james-rosing/) · [Email](mailto:jamesrosing@gmail.com)
 
 **Stack:** TypeScript · Python · Next.js · PostgreSQL · Claude
