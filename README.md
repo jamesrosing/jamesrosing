@@ -2,7 +2,7 @@
 
 **Plastic Surgeon · AI Engineer**
 
-Board-certified plastic surgeon (MD, FACS) practicing in Newport Beach. Building AI systems for healthcare and beyond.
+Board-certified plastic surgeon (MD, FACS) practicing in Newport Beach. Building production infrastructure that connects AI agents to real-world operations—healthcare workflows, developer tooling, and IoT systems.
 
 ---
 
@@ -19,7 +19,7 @@ Board-certified plastic surgeon (MD, FACS) practicing in Newport Beach. Building
 | [indexer-ai](https://www.npmjs.com/package/indexer-ai) | Universal code indexer for AI assistants (npm) |
 | [impression](https://github.com/jamesrosing/impression) | Design system extraction plugin |
 | [zenoti-mcp-server](https://github.com/tacit-code/zenoti-mcp-server) | MCP server for spa/wellness management |
-| [zenoti-docs](https://github.com/jamesrosing/zenoti-docs) | *[description needed]* |
+| [zenoti-docs](https://github.com/tacit-code/zenoti-docs) | Zenoti API documentation mirror for offline/AI use |
 | [peptide](https://github.com/jamesrosing/peptide) | Medical provider certification platform |
 | [dashboard](https://github.com/jamesrosing/dashboard) | Real-time 3D multi-entity visualization |
 | KEEL | AI-powered pre-med guidance system `private` |
@@ -27,10 +27,9 @@ Board-certified plastic surgeon (MD, FACS) practicing in Newport Beach. Building
 | FAL | Medical practice omnichannel platform `private` |
 | Sail | Marine wind prediction system `private` |
 
-
 ---
 
-## Projects
+## Project Detail
 
 ### KEEL `private`
 **AI-Powered Pre-Med Guidance System**
