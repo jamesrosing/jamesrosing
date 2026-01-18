@@ -1,19 +1,32 @@
 # James H. Rosing
 
-**MD, FACS → AI Systems Engineer**
+**Plastic Surgeon · AI Engineer**
 
-```
-14 years with a scalpel taught me to solve problems under pressure.
-Now I architect systems that do the same.
-```
+Board-certified plastic surgeon (MD, FACS) practicing in Newport Beach. Building AI systems for healthcare and beyond.
 
 ---
 
-## About
+[Allure MD](https://alluremd.com) · [LinkedIn](https://www.linkedin.com/in/allure-md-james-rosing/) · [Email](mailto:jamesrosing@gmail.com)
 
-Board-certified plastic surgeon who learned to code by building production systems. After 14 years of clinical practice at [Allure MD](https://alluremd.com), I joined an engineering team as a junior developer—learning PRs, standups, testing discipline, and the craft of professional software development.
+**Stack:** TypeScript · Python · Next.js · PostgreSQL · Claude
 
-Now I build AI systems that bridge healthcare and technology.
+---
+
+## Projects
+
+| Project | Description |
+|---------|-------------|
+| [indexer-ai](https://www.npmjs.com/package/indexer-ai) | Universal code indexer for AI assistants (npm) |
+| [impression](https://github.com/jamesrosing/impression) | Design system extraction plugin |
+| [zenoti-mcp-server](https://github.com/tacit-code/zenoti-mcp-server) | MCP server for spa/wellness management |
+| [zenoti-docs](https://github.com/jamesrosing/zenoti-docs) | *[description needed]* |
+| [peptide](https://github.com/jamesrosing/peptide) | Medical provider certification platform |
+| [dashboard](https://github.com/jamesrosing/dashboard) | Real-time 3D multi-entity visualization |
+| KEEL | AI-powered pre-med guidance system `private` |
+| AEON | Longevity intelligence platform `private` |
+| FAL | Medical practice omnichannel platform `private` |
+| Sail | Marine wind prediction system `private` |
+
 
 ---
 
