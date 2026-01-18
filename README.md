@@ -1,8 +1,8 @@
 # James H. Rosing
 
-**Plastic Surgeon · AI Engineer**
+**Plastic and Reconstructive Surgeon · AI Engineer**
 
-Board-certified plastic surgeon (MD, FACS) practicing in Newport Beach. Building production infrastructure that connects AI agents to real-world operations—healthcare workflows, developer tooling, and IoT systems.
+Board-certified plastic surgeon (MD, FACS), building production infrastructure that connects AI agents to real-world operations—healthcare workflows, developer tooling, and IoT systems.
 
 ---
 
