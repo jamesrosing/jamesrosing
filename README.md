@@ -23,10 +23,10 @@ Board-certified plastic surgeon (MD, FACS), building production infrastructure t
 | [zenoti-docs](https://github.com/tacit-code/zenoti-docs) | Zenoti API documentation mirror for offline/AI use |
 | [peptide](https://github.com/jamesrosing/peptide) | Medical provider certification platform |
 | [dashboard](https://github.com/jamesrosing/dashboard) | Real-time 3D multi-entity visualization |
-| KEEL | AI-powered pre-medical students guidance system `private` | [Live](https://keel.guide) |
+| [KEEL](https://keel.guide) | AI-powered pre-medical students guidance system `private` | 
 | **AEON** | Longevity intelligence platform integrating 400+ biomarkers across 30+ agents | — |      
-| **FAL** | Omnichannel patient communication with Twilio and Zenoti integration | [Live](https://allure-md.com) |
-| **SAIL** | Surface Atmospheric Marine wind prediction using IoT sensors | [Live](https://sail-rouge.vercel.app/) |
+| [FAL](https://allure-md.com) | Omnichannel patient communication with Twilio and Zenoti integration | 
+| [SAIL](https://sail-rouge.vercel.app/) | Surface Atmospheric Marine wind prediction using IoT sensors |  
 
 ---
 
