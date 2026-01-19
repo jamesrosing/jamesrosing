@@ -1,13 +1,13 @@
 # James H. Rosing
 
-**Plastic and Reconstructive Surgeon · AI Engineer**
+**Plastic and Reconstructive Surgeon · AI Systems Architect**
 
 Board-certified plastic surgeon (MD, FACS), building production infrastructure that connects AI agents to real-world operations—healthcare workflows, developer tooling, and IoT systems.
 
 ---
 
 [Tacit - Git Org](https://github.com/tacit-code)
-[Allure MD](https://alluremd.com) · [LinkedIn](https://www.linkedin.com/in/allure-md-james-rosing/) · [Email](mailto:jamesrosing@gmail.com)
+[Allure MD](https://allure-md.com) · [LinkedIn](https://www.linkedin.com/in/allure-md-james-rosing/) · [Email](mailto:jamesrosing@gmail.com)
 
 **Stack:** TypeScript · Python · Next.js · PostgreSQL · Claude
 
@@ -23,10 +23,10 @@ Board-certified plastic surgeon (MD, FACS), building production infrastructure t
 | [zenoti-docs](https://github.com/tacit-code/zenoti-docs) | Zenoti API documentation mirror for offline/AI use |
 | [peptide](https://github.com/jamesrosing/peptide) | Medical provider certification platform |
 | [dashboard](https://github.com/jamesrosing/dashboard) | Real-time 3D multi-entity visualization |
-| KEEL | AI-powered pre-med guidance system `private` |
-| AEON | Longevity intelligence platform `private` |
-| FAL | Medical practice omnichannel platform `private` |
-| Sail | Marine wind prediction system `private` |
+| KEEL | AI-powered pre-medical students guidance system `private` | [Live](https://keel.guide) |
+| **AEON** | Longevity intelligence platform integrating 400+ biomarkers across 30+ agents | — |      
+| **FAL** | Omnichannel patient communication with Twilio and Zenoti integration | [Live](https://allure-md.com) |
+| **SAIL** | Surface Atmospheric Marine wind prediction using IoT sensors | [Live](https://sail-rouge.vercel.app/) |
 
 ---
 
