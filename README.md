@@ -5,7 +5,7 @@
 Board-certified plastic surgeon (MD, FACS), building production infrastructure that connects AI agents to real-world operations—healthcare workflows, developer tooling, and IoT systems.
 
 ---
-
+[Google Scholar](https://scholar.google.com/citations?user=V3IzcHsAAAAJ)
 [Tacit - Git Org](https://github.com/tacit-code)
 [Allure MD](https://allure-md.com) · [LinkedIn](https://www.linkedin.com/in/allure-md-james-rosing/) · [Email](mailto:jamesrosing@gmail.com)
 
