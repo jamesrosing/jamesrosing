@@ -13,6 +13,14 @@ Board-certified plastic surgeon (MD, FACS), building production infrastructure t
 
 ---
 
+## Papers
+
+| Paper | Description |
+|-------|-------------|
+| [Four-Loop Convergence](papers/four-loop-convergence/four-loop-convergence.md) | Iterative depth as a universal computational primitive — why feedback systems converge at ~4 iterations across neural computation, immunology, crystallography, and cognition |
+
+---
+
 ## Projects
 
 | Project | Description |
