@@ -78,25 +78,11 @@ The typical return process involves external provider documentation, followed by
 
 ```mermaid
 flowchart TD
-    A["Hospital Discharge Physician\n(Medical clearance only)"] --> B
-    B["University Counseling Center\n(Post-hospitalization evaluation)"] --> C
-    C["Behavioral Intervention Team\n(Risk assessment)"] --> D
-    D["Dean of Students\n(Coordinating authority)"] --> E
-
-    F["ADVISORY"] ~~~ B
-    G["ADVISORY"] ~~~ C
-
-    E["**FINAL CLEARANCE DECISION**"]
-    E --> H
-
-    H["⚠️ ROOMMATE NOT CONSULTED AT ANY STAGE"]
-
-    style A fill:#e3f2fd,stroke:#1565c0
-    style B fill:#fff3e0,stroke:#e65100
-    style C fill:#fff3e0,stroke:#e65100
-    style D fill:#e3f2fd,stroke:#1565c0
-    style E fill:#fffde7,stroke:#333,font-weight:bold
-    style H fill:#ffebee,stroke:#c62828,color:#c62828,font-weight:bold
+    A[Hospital Discharge Physician] -->|Medical clearance only| B
+    B[University Counseling Center] -->|Advisory| C
+    C[Behavioral Intervention Team] -->|Advisory| D
+    D[Dean of Students] --> E[FINAL CLEARANCE DECISION]
+    E --> F[Roommate not consulted at any stage]
 ```
 
 *Figure 2. Decision-making authority chain for student return. At no point in the process is the roommate consulted, informed, or acknowledged as a stakeholder.*

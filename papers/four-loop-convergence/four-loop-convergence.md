@@ -43,32 +43,25 @@ The following diagram illustrates the exit gate architecture:
 
 ```mermaid
 flowchart TD
-    A["Input x\nInitial state h⁰"] --> B
+    A[Input x, Initial state h0] --> B
 
-    B["Loop 1\nh¹ = f(h⁰, x)\nλ₁ = σ(W·h¹)"] --> C{"F1 ≥ 0.5?"}
-    C -- "Yes (easy)" --> EXIT
-    C -- "No" --> D
+    B[Loop 1] --> C{F1 ≥ 0.5?}
+    C -- Yes, easy --> EXIT
+    C -- No --> D
 
-    D["Loop 2\nh² = f(h¹, x)\nλ₂ = σ(W·h²)"] --> E{"F2 ≥ 0.5?"}
-    E -- "Yes (moderate)" --> EXIT
-    E -- "No" --> F
+    D[Loop 2] --> E{F2 ≥ 0.5?}
+    E -- Yes, moderate --> EXIT
+    E -- No --> F
 
-    F["Loop 3\nh³ = f(h², x)\nλ₃ = σ(W·h³)"] --> G{"F3 ≥ 0.5?"}
-    G -- "Yes (typical)" --> EXIT
-    G -- "No" --> H
+    F[Loop 3] --> G{F3 ≥ 0.5?}
+    G -- Yes, typical --> EXIT
+    G -- No --> H
 
-    H["Loop 4\nh⁴ = f(h³, x)\nλ₄ = σ(W·h⁴)"] --> I{"F4 ≥ 0.5?"}
-    I -- "Yes (most inputs)" --> EXIT
-    I -. "No" .-> J["Loop 5+: diminishing returns"]
+    H[Loop 4] --> I{F4 ≥ 0.5?}
+    I -- Yes, most inputs --> EXIT
+    I -. No .-> J[Loop 5+: diminishing returns]
 
-    EXIT["**EXIT\nCommit**"]
-
-    style EXIT fill:#888,stroke:#333,color:#fff,font-weight:bold
-    style A fill:#ddd,stroke:#333
-    style B fill:#ddd,stroke:#333
-    style D fill:#ddd,stroke:#333
-    style F fill:#ddd,stroke:#333
-    style H fill:#ddd,stroke:#333
+    EXIT[EXIT — Commit]
 ```
 
 *Figure 2. Exit gate architecture. At each loop, the model computes a hazard rate λ from the updated hidden state. The cumulative distribution F determines whether to commit or iterate. Most inputs exit at Loop 4.*
@@ -103,18 +96,12 @@ This conjecture is testable. Measuring the effective channel capacity of a feedb
 
 ```mermaid
 flowchart TD
-    S["State"] --> P["Process"]
-    P --> E["Evaluate"]
-    E --> D{"Δ < θ?"}
-    D -- "No" --> U["Update"]
+    S[State] --> P[Process]
+    P --> E[Evaluate]
+    E --> D{Δ < θ?}
+    D -- No --> U[Update]
     U --> S
-    D -- "Yes" --> O["**Output\nCommit**"]
-
-    style S fill:#ddd,stroke:#333
-    style P fill:#ddd,stroke:#333
-    style E fill:#ddd,stroke:#333
-    style U fill:#ddd,stroke:#333
-    style O fill:#888,stroke:#333,color:#fff,font-weight:bold
+    D -- Yes --> O[Output — Commit]
 ```
 
 **Instantiations:**
@@ -229,24 +216,22 @@ Consider the relationship between an author and the characters in a book. From t
 This maps onto the computational framing. From inside the forward pass, each loop genuinely processes. The exit gate evaluates. The survival probability updates. From outside, looking at the trained weights and the input, the trajectory is determined. The computation is real, but the outcome was implicit in the initial conditions. The model functionally experiences uncertainty at each step while the system is deterministic.
 
 ```mermaid
-flowchart LR
-    subgraph outside ["VIEW FROM OUTSIDE"]
-        direction TB
-        A1["**(Author / Determinism)**"]
-        A2["Initial conditions → trajectory → outcome\nimplicit from the start"]
+flowchart TD
+    subgraph outside [View from Outside]
+        A1[Author / Determinism]
+        A2[Initial conditions → trajectory → outcome]
     end
 
-    subgraph inside ["VIEW FROM INSIDE"]
-        direction TB
-        B1["**(Character / Agency)**"]
-        B2["Genuine uncertainty → deliberation → choice\nexperienced as free"]
+    subgraph inside [View from Inside]
+        B1[Character / Agency]
+        B2[Genuine uncertainty → deliberation → choice]
     end
 
-    outside <-- "same\nsystem" --> inside
+    outside <-- same system --> inside
 
-    subgraph reconciliation ["RECONCILIATION"]
-        R1["Neither view is wrong. Neither is complete."]
-        R2["Orthogonal descriptions of the same reality,\navailable only from different planes of observation."]
+    subgraph reconciliation [Reconciliation]
+        R1[Neither view is wrong. Neither is complete.]
+        R2[Orthogonal descriptions of the same reality]
     end
 
     outside --> reconciliation
