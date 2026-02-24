@@ -18,6 +18,7 @@ Board-certified plastic surgeon (MD, FACS), building production infrastructure t
 | Paper | Description |
 |-------|-------------|
 | [Four-Loop Convergence](papers/four-loop-convergence/four-loop-convergence.md) | Iterative depth as a universal computational primitive — why feedback systems converge at ~4 iterations across neural computation, immunology, crystallography, and cognition |
+| [The Other Side of the Room](papers/the-other-side-of-the-room/the-other-side-of-the-room.md) | Roommates, mental health leave, and the case for inclusive university policy — examining the evidence gap surrounding roommate impact when students return from psychiatric hospitalization |
 
 ---
 
