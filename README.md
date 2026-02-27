@@ -7,7 +7,7 @@ MD, FACS · Newport Beach, CA
 
 <p align="center">
 Board-certified plastic surgeon building production infrastructure that connects<br>
-AI agents to real-world operations — healthcare, developer tooling, and IoT.
+AI agents to real-world operations - healthcare, developer tooling, and IoT.
 </p>
 
 <p align="center">
@@ -29,11 +29,11 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 ### Currently Building
 
-**AEON** — Longevity intelligence platform · 400+ biomarkers · 30+ concurrent agents · multi-omics
+**AEON** - Longevity intelligence platform · 400+ biomarkers · 30+ concurrent agents · multi-omics
 
-**indexer-ai** — Universal code indexer for AI assistants · published on [npm](https://www.npmjs.com/package/indexer-ai)
+**indexer-ai** - Universal code indexer for AI assistants · published on [npm](https://www.npmjs.com/package/indexer-ai)
 
-**FAL** — Omnichannel patient communication · Twilio + Zenoti integration
+**FAL** - Omnichannel patient communication · Twilio + Zenoti integration
 
 ---
 
@@ -41,8 +41,8 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 | Paper | Description |
 |:------|:------------|
-| [Four-Loop Convergence](papers/four-loop-convergence/four-loop-convergence.md) | Iterative depth as a universal computational primitive — why feedback systems converge at ~4 iterations across neural computation, immunology, crystallography, and cognition |
-| [The Other Side of the Room](papers/the-other-side-of-the-room/the-other-side-of-the-room.md) | Roommates, mental health leave, and the case for inclusive university policy — examining the evidence gap surrounding roommate impact when students return from psychiatric hospitalization |
+| [Four-Loop Convergence](papers/four-loop-convergence/four-loop-convergence.md) | Iterative depth as a universal computational primitive - why feedback systems converge at ~4 iterations across neural computation, immunology, crystallography, and cognition |
+| [The Other Side of the Room](papers/the-other-side-of-the-room/the-other-side-of-the-room.md) | Roommates, mental health leave, and the case for inclusive university policy - examining the evidence gap surrounding roommate impact when students return from psychiatric hospitalization |
 
 ---
 
@@ -52,17 +52,17 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 | Project | What it does | |
 |:--------|:-------------|:-:|
-| **indexer-ai** | Universal code indexer — 3.6× faster with Worker Threads, 10K files in ~25s | [repo](https://github.com/tacit-code/indexer) · [npm](https://www.npmjs.com/package/indexer-ai) |
-| **impression** | Design system extraction — Playwright, CIE ΔE 2000, multi-format output | [repo](https://github.com/jamesrosing/impression) |
-| **zenoti-mcp-server** | MCP server for spa/wellness — AI-driven booking, billing, guests | [repo](https://github.com/tacit-code/zenoti-mcp-server) |
+| **indexer-ai** | Universal code indexer - 3.6x faster with Worker Threads, 10K files in ~25s | [repo](https://github.com/tacit-code/indexer) · [npm](https://www.npmjs.com/package/indexer-ai) |
+| **impression** | Design system extraction - Playwright, CIE ΔE 2000, multi-format output | [repo](https://github.com/jamesrosing/impression) |
+| **zenoti-mcp-server** | MCP server for spa/wellness - AI-driven booking, billing, guests | [repo](https://github.com/tacit-code/zenoti-mcp-server) |
 | **zenoti-docs** | Zenoti API documentation mirror for offline / AI use | [repo](https://github.com/tacit-code/zenoti-docs) |
-| **peptide** | Medical provider certification — searchable database, CME courses | [repo](https://github.com/jamesrosing/peptide) |
-| **dashboard** | Real-time 3D multi-entity visualization — 1000+ updates/s at 60 fps | [repo](https://github.com/jamesrosing/dashboard) |
-| **KEEL** `private` | AI-powered pre-med guidance — 9 advisor personas, vector matching | [repo](https://github.com/tacit-code/KEEL) |
-| **AEON** `private` | Longevity intelligence — 400+ biomarkers, 30+ agents, multi-omics | — |
-| **FAL** `private` | Omnichannel patient comms — Twilio, Zenoti, Messenger, SMS | [site](https://allure-md.com) |
-| **SAIL** | Marine wind prediction — IoT sensors, time-series models | [repo](https://github.com/tacit-code/sail) · [live](https://sail-rouge.vercel.app/) |
-| **frontend-quality-auditor** | Automated design-system QA — WCAG 2.1 AA, PRD validation | [repo](https://github.com/tacit-code/frontend-quality-auditor) |
+| **peptide** | Medical provider certification - searchable database, CME courses | [repo](https://github.com/jamesrosing/peptide) |
+| **dashboard** | Real-time 3D multi-entity visualization - 1000+ updates/s at 60 fps | [repo](https://github.com/jamesrosing/dashboard) |
+| **KEEL** `private` | AI-powered pre-med guidance - 9 advisor personas, vector matching | [repo](https://github.com/tacit-code/KEEL) |
+| **AEON** `private` | Longevity intelligence - 400+ biomarkers, 30+ agents, multi-omics | - |
+| **FAL** `private` | Omnichannel patient comms - Twilio, Zenoti, Messenger, SMS | [site](https://allure-md.com) |
+| **SAIL** | Marine wind prediction - IoT sensors, time-series models | [repo](https://github.com/tacit-code/sail) · [live](https://sail-rouge.vercel.app/) |
+| **frontend-quality-auditor** | Automated design-system QA - WCAG 2.1 AA, PRD validation | [repo](https://github.com/tacit-code/frontend-quality-auditor) |
 | **deep-agents-ui** | Custom UI for deep agent workflows | [repo](https://github.com/tacit-code/deep-agents-ui) |
 
 ---
@@ -84,7 +84,7 @@ Multi-persona AI mentor synthesizing wisdom from nine distinct advisor perspecti
 - Opportunity matching with vector similarity
 - Commitment tracking and accountability
 
-→ [View Repository](https://github.com/tacit-code/KEEL)
+-> [View Repository](https://github.com/tacit-code/KEEL)
 
 ---
 
@@ -100,7 +100,7 @@ Claude Code plugin that extracts design systems from live websites using Playwri
 - Multi-format output (Tailwind, CSS vars, shadcn, W3C, Figma)
 - Project comparison with gap analysis
 
-→ [View Repository](https://github.com/jamesrosing/impression)
+-> [View Repository](https://github.com/jamesrosing/impression)
 
 ---
 
@@ -116,7 +116,7 @@ Comprehensive resource for medical providers seeking peptide therapy information
 - Verified supplier directory
 - HIPAA-compliant professional forums
 
-→ [View Repository](https://github.com/jamesrosing/peptide)
+-> [View Repository](https://github.com/jamesrosing/peptide)
 
 ---
 
@@ -132,7 +132,7 @@ High-performance monitoring system rendering 100+ entities at 60fps with near-ze
 - LOD + frustum culling optimization
 - Protocol Buffers serialization
 
-→ [View Repository](https://github.com/jamesrosing/dashboard)
+-> [View Repository](https://github.com/jamesrosing/dashboard)
 
 ---
 
@@ -143,19 +143,19 @@ Enterprise-grade codebase indexer with parallel processing. Published on npm.
 
 `TypeScript` `Worker Threads` `Tree-sitter` `AST Parsing` `Claude SDK`
 
-- 3.6× faster with Worker Threads
+- 3.6x faster with Worker Threads
 - 10,000 files in ~25 seconds
 - 40% memory reduction
 - 9 languages supported
 
-→ [View Repository](https://github.com/tacit-code/indexer) · [npm](https://www.npmjs.com/package/indexer-ai)
+-> [View Repository](https://github.com/tacit-code/indexer) · [npm](https://www.npmjs.com/package/indexer-ai)
 
 ---
 
 #### zenoti-mcp-server
 MCP Server for Spa/Wellness Management
 
-Model Context Protocol server enabling AI agents to manage Zenoti operations — appointments, guests, billing.
+Model Context Protocol server enabling AI agents to manage Zenoti operations - appointments, guests, billing.
 
 `TypeScript` `MCP Protocol` `REST API` `Zenoti API`
 
@@ -164,7 +164,7 @@ Model Context Protocol server enabling AI agents to manage Zenoti operations —
 - Invoice & payment processing
 - Agent-optimized responses
 
-→ [View Repository](https://github.com/tacit-code/zenoti-mcp-server)
+-> [View Repository](https://github.com/tacit-code/zenoti-mcp-server)
 
 ---
 
@@ -208,7 +208,7 @@ Real-time wind sensor and prediction model positioned 100m from shore.
 - Race committees
 - Harbor operations
 
-→ [View Repository](https://github.com/tacit-code/sail) · [Live](https://sail-rouge.vercel.app/)
+-> [View Repository](https://github.com/tacit-code/sail) · [Live](https://sail-rouge.vercel.app/)
 
 </details>
 
@@ -218,14 +218,14 @@ Real-time wind sensor and prediction model positioned 100m from shore.
 
 |  |  |
 |:--|:--|
-| **Education** | MD — Keck School of Medicine, USC (2004) |
-| | BA Biological Sciences — University of Southern California (1997) |
+| **Education** | MD - Keck School of Medicine, USC (2004) |
+| | BA Biological Sciences - University of Southern California (1997) |
 | **Credentials** | MD, FACS |
 | **Specialty** | Plastic & Reconstructive Surgery |
-| **Practice** | [Allure MD](https://allure-md.com) — Newport Beach, CA |
+| **Practice** | [Allure MD](https://allure-md.com) - Newport Beach, CA |
 | **Experience** | 14 years clinical |
 | **Affiliations** | American Board of Plastic Surgery · ASPS · Allergan Partner (14+ yrs) |
-| **Engineering** | Junior Developer → AI Systems Architect |
+| **Engineering** | Junior Developer -> AI Systems Architect |
 | **Published** | npm · [indexer-ai](https://www.npmjs.com/package/indexer-ai) |
 
 <p align="center">
@@ -248,3 +248,4 @@ Real-time wind sensor and prediction model positioned 100m from shore.
 <p align="center">
 <sub>Newport Beach, CA · <a href="https://www.linkedin.com/in/allure-md-james-rosing/">LinkedIn</a> · <a href="https://alluremd.com">Allure MD</a> · <a href="mailto:jamesrosing@gmail.com">Email</a></sub>
 </p>
+
