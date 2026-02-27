@@ -218,6 +218,8 @@ Real-time wind sensor and prediction model positioned 100m from shore.
 
 |  |  |
 |:--|:--|
+| **Education** | MD — Keck School of Medicine, USC (2004) |
+| | BA Biological Sciences — University of Southern California (1997) |
 | **Credentials** | MD, FACS |
 | **Specialty** | Plastic & Reconstructive Surgery |
 | **Practice** | [Allure MD](https://allure-md.com) — Newport Beach, CA |
@@ -225,6 +227,10 @@ Real-time wind sensor and prediction model positioned 100m from shore.
 | **Affiliations** | American Board of Plastic Surgery · ASPS · Allergan Partner (14+ yrs) |
 | **Engineering** | Junior Developer → AI Systems Architect |
 | **Published** | npm · [indexer-ai](https://www.npmjs.com/package/indexer-ai) |
+
+<p align="center">
+<a href="James-Rosing-CV.pdf"><strong>View Full CV (PDF)</strong></a>
+</p>
 
 ---
 
