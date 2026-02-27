@@ -59,7 +59,7 @@ Notably absent from all reviewed policies: any requirement for roommate notifica
 
 ***Figure 1. Post-Discharge Suicide Risk Timeline***
 
-![Figure 1. Post-Discharge Suicide Risk Timeline](Figure1_PostDischargeRisk.png)
+![Figure 1. Post-Discharge Suicide Risk Timeline](images/Fig1_PostDischargeRisk.png)
 
 # THE DECISION-MAKING AUTHORITY CHAIN
 
@@ -69,7 +69,7 @@ The typical return process involves external provider documentation, followed by
 
 ***Figure 2. Decision-Making Authority Chain for Student Return***
 
-![Figure 2. Decision-Making Authority Chain for Student Return](Figure2_DecisionChain.png)
+![Figure 2. Decision-Making Authority Chain for Student Return](images/Fig2_DecisionChain.png)
 
 # THE ROOMMATE NOTIFICATION VOID
 
@@ -113,7 +113,7 @@ Research on trauma exposure suggests plausible mechanisms. A study of 17 high sc
 
 ***Figure 3. Secondary Traumatic Stress Prevalence in Campus Populations***
 
-![Figure 3. Secondary Traumatic Stress Prevalence in Campus Populations](Figure3_SecondaryTrauma.png)
+![Figure 3. Secondary Traumatic Stress Prevalence in Campus Populations](images/Fig3_SecondaryTrauma.png)
 
 # CLINICAL DISCHARGE PLANNING GAPS
 
@@ -260,3 +260,4 @@ Allure MD Plastic Surgery and Dermatology
 Newport Beach, California
 
 drrosing@allure-md.com
+
