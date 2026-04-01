@@ -64,6 +64,7 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 | **SAIL** | Marine wind prediction - IoT sensors, time-series models | [repo](https://github.com/tacit-code/sail) · [live](https://sail-rouge.vercel.app/) |
 | **frontend-quality-auditor** | Automated design-system QA - WCAG 2.1 AA, PRD validation | [repo](https://github.com/tacit-code/frontend-quality-auditor) |
 | **deep-agents-ui** | Custom UI for deep agent workflows | [repo](https://github.com/tacit-code/deep-agents-ui) |
+| **tebra-mcp-server** | MCP server for Tebra/Kareo practice management - 45 SOAP + FHIR clinical tools | [repo](https://github.com/jamesrosing/tebra-mcp-server) · [npm](https://www.npmjs.com/package/tebra-mcp-server) |
 
 ---
 
