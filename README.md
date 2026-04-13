@@ -31,6 +31,8 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 **AEON** - Longevity intelligence platform · 400+ biomarkers · 30+ concurrent agents · multi-omics
 
+**create-autoresearch** - Autonomous AI research loops for web apps · adapts [karpathy/autoresearch](https://github.com/karpathy/autoresearch) for webapp optimization · published on [npm](https://www.npmjs.com/package/create-autoresearch)
+
 **indexer-ai** - Universal code indexer for AI assistants · published on [npm](https://www.npmjs.com/package/indexer-ai)
 
 **FAL** - Omnichannel patient communication · Twilio + Zenoti integration
@@ -52,6 +54,7 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 | Project | What it does | |
 |:--------|:-------------|:-:|
+| **create-autoresearch** | Autonomous AI research loops for webapps - 9 optimization modes, auto-detects stack | [repo](https://github.com/jamesrosing/autoresearch) · [npm](https://www.npmjs.com/package/create-autoresearch) |
 | **indexer-ai** | Universal code indexer - 3.6x faster with Worker Threads, 10K files in ~25s | [repo](https://github.com/tacit-code/indexer) · [npm](https://www.npmjs.com/package/indexer-ai) |
 | **impression** | Design system extraction - Playwright, CIE ΔE 2000, multi-format output | [repo](https://github.com/jamesrosing/impression) |
 | **zenoti-mcp-server** | MCP server for spa/wellness - AI-driven booking, billing, guests | [repo](https://github.com/tacit-code/zenoti-mcp-server) |
@@ -72,6 +75,23 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 <summary><strong>Project details ▸</strong></summary>
 
 <br>
+
+#### create-autoresearch
+Autonomous AI Research Loops for Web Applications
+
+Adapts [karpathy/autoresearch](https://github.com/karpathy/autoresearch) for webapp optimization. An AI agent autonomously modifies your code, runs evaluation, keeps improvements, reverts failures, and repeats — overnight. Published on npm.
+
+`TypeScript` `EJS` `Node.js CLI` `Lighthouse` `Vitest` `ESLint`
+
+- 9 research modes: perf, quality, security, a11y, clean, wiring, styling, marketing, feature
+- Auto-detects framework (Next.js, Nuxt, SvelteKit, Vite, Remix)
+- Auto-detects integrations (Supabase, Prisma, Stripe, Clerk, shadcn)
+- Configurable guardrails with HIPAA compliance support
+- ~60-100 autonomous experiments per overnight session
+
+-> [View Repository](https://github.com/jamesrosing/autoresearch) · [npm](https://www.npmjs.com/package/create-autoresearch)
+
+---
 
 #### KEEL `private`
 AI-Powered Pre-Med Guidance System
@@ -227,7 +247,7 @@ Real-time wind sensor and prediction model positioned 100m from shore.
 | **Experience** | 14 years clinical |
 | **Affiliations** | American Board of Plastic Surgery · ASPS · Allergan Partner (14+ yrs) |
 | **Engineering** | Junior Developer -> AI Systems Architect |
-| **Published** | npm · [indexer-ai](https://www.npmjs.com/package/indexer-ai) |
+| **Published** | npm · [indexer-ai](https://www.npmjs.com/package/indexer-ai) · [create-autoresearch](https://www.npmjs.com/package/create-autoresearch) · [tebra-mcp-server](https://www.npmjs.com/package/tebra-mcp-server) |
 
 <p align="center">
 <a href="James-Rosing-CV.pdf"><strong>View Full CV (PDF)</strong></a>
@@ -249,4 +269,3 @@ Real-time wind sensor and prediction model positioned 100m from shore.
 <p align="center">
 <sub>Newport Beach, CA · <a href="https://www.linkedin.com/in/allure-md-james-rosing/">LinkedIn</a> · <a href="https://alluremd.com">Allure MD</a> · <a href="mailto:jamesrosing@gmail.com">Email</a></sub>
 </p>
-
