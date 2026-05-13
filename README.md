@@ -29,6 +29,8 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 ### Currently Building
 
+**heme** `private` - EHR for independent practices · monolith on InterSystems IRIS Native · TypeScript + React + Vite · custom design system, FHIR R4 layer in flight
+
 **AEON** - Longevity intelligence platform · 400+ biomarkers · 30+ concurrent agents · multi-omics
 
 **create-autoresearch** - Autonomous AI research loops for web apps · adapts [karpathy/autoresearch](https://github.com/karpathy/autoresearch) for webapp optimization · published on [npm](https://www.npmjs.com/package/create-autoresearch)
@@ -68,6 +70,7 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 | **frontend-quality-auditor** | Automated design-system QA - WCAG 2.1 AA, PRD validation | [repo](https://github.com/tacit-code/frontend-quality-auditor) |
 | **deep-agents-ui** | Custom UI for deep agent workflows | [repo](https://github.com/tacit-code/deep-agents-ui) |
 | **tebra-mcp-server** | MCP server for Tebra/Kareo practice management - 45 SOAP + FHIR clinical tools | [repo](https://github.com/jamesrosing/tebra-mcp-server) · [npm](https://www.npmjs.com/package/tebra-mcp-server) |
+| **heme** `private` | EHR for 1-5 provider private practices - real IRIS Native persistence, monolith, custom design system, FHIR R4 layer in flight | - |
 
 ---
 
@@ -186,6 +189,20 @@ Model Context Protocol server enabling AI agents to manage Zenoti operations - a
 - Agent-optimized responses
 
 -> [View Repository](https://github.com/tacit-code/zenoti-mcp-server)
+
+---
+
+#### heme `private`
+Electronic Health Record for Independent Practices
+
+Monolithic EHR designed for 1-5 provider private practices. Real InterSystems IRIS Native persistence (not a Mongo-shaped mock), Express + TypeScript backend, React + Vite frontend, Lerna monorepo. Modules wired end-to-end against IRIS: auth, patients, scheduling, clinical notes/vitals/allergies/problems, audit, billing (charge / claim / payment with state machine), inbox, medications. FHIR R4 compliance layer and Bulk-FHIR interop in progress.
+
+`TypeScript` `InterSystems IRIS Native` `Express` `React 19` `Vite 7` `Tailwind 3` `Lerna`
+
+- Real IRIS Native driver via `@intersystems/intersystems-iris-native` (extracted at build time, not committed)
+- Audit logging at the repository layer - every PHI read/write captured to a dedicated global
+- Custom design system (`heme`) - three-anchor palette, no semantic colors, no pill shapes, status by icon + label + weight
+- CI smoke job spins an IRIS container, vendors the driver, validates round-trip persistence on every PR
 
 ---
 
