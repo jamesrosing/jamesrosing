@@ -5,12 +5,6 @@
 **James H. Rosing, MD, FACS**  
 *Allure MD Plastic Surgery and Dermatology, Newport Beach, California*
 
-**Mark James Rosing**  
-*Department of Biological Sciences, Dornsife College of Letters, Arts and Sciences, University of Southern California, Los Angeles, California*
-
-**Ellie Shannon Rosing**  
-*Institute for Society and Genetics, University of California, Los Angeles, California*
-
 ## ABSTRACT
 
 When college students return to campus housing following psychiatric hospitalization, institutional policies appropriately focus on the returning student. However, one stakeholder remains systematically overlooked: the roommate. This perspective examines the evidence gap surrounding roommate impact, analyzes ethical tensions in current approaches, and proposes policy recommendations. A comprehensive literature review reveals no published research directly examining psychological, academic, or safety implications for roommates. Current frameworks prioritize privacy protection and disability accommodation for the returning student while treating the roommate as an externality. This paper argues that truly student-centered policies must acknowledge both students have needs, both deserve support, and the relationship between them is a clinical variable affecting clinical recovery, academic performance, and retention for both students. Policy recommendations address proactive roommate support, functional information sharing within privacy constraints, genuine choice architecture for housing decisions, and institutional acknowledgment of burden placed on uninvolved roommates.
