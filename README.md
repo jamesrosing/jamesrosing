@@ -56,6 +56,7 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 | Project | What it does | |
 |:--------|:-------------|:-:|
+| **heme** `private` | EHR for 1-5 provider private practices - real IRIS Native persistence, monolith, TypeScript + React + Vite, custom design system, FHIR R4 layer in flight | - |
 | **create-autoresearch** | Autonomous AI research loops for webapps - 9 optimization modes, auto-detects stack | [repo](https://github.com/jamesrosing/autoresearch) · [npm](https://www.npmjs.com/package/create-autoresearch) |
 | **indexer-ai** | Universal code indexer - 3.6x faster with Worker Threads, 10K files in ~25s | [repo](https://github.com/tacit-code/indexer) · [npm](https://www.npmjs.com/package/indexer-ai) |
 | **impression** | Design system extraction - Playwright, CIE ΔE 2000, multi-format output | [repo](https://github.com/jamesrosing/impression) |
@@ -70,7 +71,6 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 | **frontend-quality-auditor** | Automated design-system QA - WCAG 2.1 AA, PRD validation | [repo](https://github.com/tacit-code/frontend-quality-auditor) |
 | **deep-agents-ui** | Custom UI for deep agent workflows | [repo](https://github.com/tacit-code/deep-agents-ui) |
 | **tebra-mcp-server** | MCP server for Tebra/Kareo practice management - 45 SOAP + FHIR clinical tools | [repo](https://github.com/jamesrosing/tebra-mcp-server) · [npm](https://www.npmjs.com/package/tebra-mcp-server) |
-| **heme** `private` | EHR for 1-5 provider private practices - real IRIS Native persistence, monolith, custom design system, FHIR R4 layer in flight | - |
 
 ---
 
