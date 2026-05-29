@@ -1,7 +1,7 @@
 # The Other Side of the Room
 ## Mental Health Leave & Roommate Policy
 
-**James H. Rosing, MD, FACS; Mark James Rosing; Ellie Shannon Rosing**
+**James H. Rosing, MD, FACS**
 
 ## ABSTRACT
 
