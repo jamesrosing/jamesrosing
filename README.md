@@ -31,6 +31,8 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 **heme** `private` - EHR for independent practices · monolith on InterSystems IRIS Native · TypeScript + React + Vite · custom design system, FHIR R4 layer in flight
 
+**UDKS** - `private` - Unified Disease-Knowledge System · resolves any clinical code to cited reference knowledge · UMLS-CUI spine reconciled with Mondo · FHIR R4 terminology service · citation-faithful GraphRAG built last
+
 **AEON** - Longevity intelligence platform · 400+ biomarkers · 30+ concurrent agents · multi-omics
 
 **create-autoresearch** - Autonomous AI research loops for web apps · adapts [karpathy/autoresearch](https://github.com/karpathy/autoresearch) for webapp optimization · published on [npm](https://www.npmjs.com/package/create-autoresearch)
@@ -57,6 +59,7 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 | Project | What it does | |
 |:--------|:-------------|:-:|
 | **heme** `private` | EHR for 1-5 provider private practices - real IRIS Native persistence, monolith, TypeScript + React + Vite, custom design system, FHIR R4 layer in flight | - |
+| **UDKS** `private` | Unified Disease-Knowledge System - resolves a clinical code to cited reference knowledge through a UMLS-CUI spine reconciled with Mondo, exposed as a FHIR R4 terminology service | - |
 | **create-autoresearch** | Autonomous AI research loops for webapps - 9 optimization modes, auto-detects stack | [repo](https://github.com/jamesrosing/autoresearch) · [npm](https://www.npmjs.com/package/create-autoresearch) |
 | **indexer-ai** | Universal code indexer - 3.6x faster with Worker Threads, 10K files in ~25s | [repo](https://github.com/tacit-code/indexer) · [npm](https://www.npmjs.com/package/indexer-ai) |
 | **impression** | Design system extraction - Playwright, CIE ΔE 2000, multi-format output | [repo](https://github.com/jamesrosing/impression) |
@@ -78,6 +81,48 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 <summary><strong>Project details ▸</strong></summary>
 
 <br>
+
+#### heme `private`
+Electronic Health Record for Independent Practices
+
+Monolithic EHR designed for 1-5 provider private practices. Real InterSystems IRIS Native persistence (not a Mongo-shaped mock), Express + TypeScript backend, React + Vite frontend, Lerna monorepo. Modules wired end-to-end against IRIS: auth, patients, scheduling, clinical notes/vitals/allergies/problems, audit, billing (charge / claim / payment with state machine), inbox, medications. FHIR R4 compliance layer and Bulk-FHIR interop in progress.
+
+`TypeScript` `InterSystems IRIS Native` `Express` `React 19` `Vite 7` `Tailwind 3` `Lerna`
+
+- Real IRIS Native driver via `@intersystems/intersystems-iris-native` (extracted at build time, not committed)
+- Audit logging at the repository layer - every PHI read/write captured to a dedicated global
+- Custom design system (`heme`) - three-anchor palette, no semantic colors, no pill shapes, status by icon + label + weight
+- CI smoke job spins an IRIS container, vendors the driver, validates round-trip persistence on every PR
+
+---
+
+#### UDKS `private`
+Unified Disease-Knowledge System
+
+Keys narrative clinical reference content to a canonical medical code spine, so a diagnosis, medication, or lab code resolves to ranked pathophysiology, diagnosis, and treatment knowledge with crosswalks across every major coding system. The internal key is the UMLS CUI; ICD-10-CM, ICD-11, SNOMED, RxNorm, and LOINC are stored as projections, reconciled with Mondo for disease-class precision. Surfaced through a FHIR R4 terminology service and EHR-friendly delivery, with a citation-faithful GraphRAG layer built last. The release gate is citation fidelity: no clinical claim ships unless it traces to a verifiable source span.
+
+`Python` `TypeScript` `PostgreSQL` `pgvector` `Apache AGE` `HAPI FHIR` `Mondo / SSSOM` `Claude Citations`
+
+- UMLS-CUI spine with crosswalk projections across ICD-10-CM, ICD-11, SNOMED, RxNorm, LOINC, Mondo, HPO
+- FHIR R4 terminology service (`$lookup` / `$translate` / `$expand` / `$validate-code`) on HAPI
+- Open-core / hosted-premium split enforced by a CI redistribution guard and runtime row-level entitlement
+- Citation-fidelity acceptance gate: every generated clinical claim carries an entailment-tested citation
+
+---
+
+#### AEON `private`
+Longevity Intelligence Platform
+
+Multi-agent AI system for longevity optimization targeting insurers to demonstrate reduced claims via wearables.
+
+`TypeScript` `Python` `Multi-Agent Orchestration` `Real-time ETL`
+
+- 400+ biomarker integration
+- 30+ concurrent AI agents
+- Multi-omics data pipelines
+- HIPAA-compliant infrastructure
+
+---
 
 #### create-autoresearch
 Autonomous AI Research Loops for Web Applications
@@ -189,34 +234,6 @@ Model Context Protocol server enabling AI agents to manage Zenoti operations - a
 - Agent-optimized responses
 
 -> [View Repository](https://github.com/tacit-code/zenoti-mcp-server)
-
----
-
-#### heme `private`
-Electronic Health Record for Independent Practices
-
-Monolithic EHR designed for 1-5 provider private practices. Real InterSystems IRIS Native persistence (not a Mongo-shaped mock), Express + TypeScript backend, React + Vite frontend, Lerna monorepo. Modules wired end-to-end against IRIS: auth, patients, scheduling, clinical notes/vitals/allergies/problems, audit, billing (charge / claim / payment with state machine), inbox, medications. FHIR R4 compliance layer and Bulk-FHIR interop in progress.
-
-`TypeScript` `InterSystems IRIS Native` `Express` `React 19` `Vite 7` `Tailwind 3` `Lerna`
-
-- Real IRIS Native driver via `@intersystems/intersystems-iris-native` (extracted at build time, not committed)
-- Audit logging at the repository layer - every PHI read/write captured to a dedicated global
-- Custom design system (`heme`) - three-anchor palette, no semantic colors, no pill shapes, status by icon + label + weight
-- CI smoke job spins an IRIS container, vendors the driver, validates round-trip persistence on every PR
-
----
-
-#### AEON `private`
-Longevity Intelligence Platform
-
-Multi-agent AI system for longevity optimization targeting insurers to demonstrate reduced claims via wearables.
-
-`TypeScript` `Python` `Multi-Agent Orchestration` `Real-time ETL`
-
-- 400+ biomarker integration
-- 30+ concurrent AI agents
-- Multi-omics data pipelines
-- HIPAA-compliant infrastructure
 
 ---
 
