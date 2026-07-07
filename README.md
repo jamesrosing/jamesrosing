@@ -291,26 +291,6 @@ A fail-closed grounding layer: a generated claim may act only when it carries a 
 
 ---
 
-## Background
-
-|  |  |
-|:--|:--|
-| **Education** | MD - Keck School of Medicine, USC (2004) |
-| | BA Biological Sciences - University of Southern California (1997) |
-| **Credentials** | MD, FACS |
-| **Specialty** | Plastic & Reconstructive Surgery |
-| **Practice** | [Allure MD](https://allure-md.com) - Newport Beach, CA |
-| **Experience** | 15 years clinical |
-| **Affiliations** | American Board of Plastic Surgery · ASPS · Allergan Partner (14+ yrs) |
-| **Engineering** | Junior Developer -> AI Systems Architect |
-| **Published** | npm · [indexer-ai](https://www.npmjs.com/package/indexer-ai) · [create-autoresearch](https://www.npmjs.com/package/create-autoresearch) · [tebra-mcp-server](https://www.npmjs.com/package/tebra-mcp-server) · [zenoti-mcp-server](https://www.npmjs.com/package/zenoti-mcp-server) |
-
-<p align="center">
-<a href="James-Rosing-CV.pdf"><strong>View Full CV (PDF)</strong></a>
-</p>
-
----
-
 <p align="center">
 <a href="https://github.com/jamesrosing">
 <img src="https://github-readme-stats.vercel.app/api?username=jamesrosing&show_icons=true&theme=transparent&hide_border=true&title_color=ffffff&icon_color=888888&text_color=aaaaaa&ring_color=555555" height="160" alt="GitHub Stats"/>
