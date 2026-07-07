@@ -29,6 +29,8 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 ### Currently Building
 
+**LITMUS** - Open verification framework for AI-generated claims · fail-closed grounding layer where a generated claim acts only when it carries a warrant the gate can re-check against the domain's source of truth · two preprints published: [paper](https://doi.org/10.5281/zenodo.21227402) · [architecture](https://doi.org/10.5281/zenodo.21227855) · [repo](https://github.com/jamesrosing/litmus) · TypeScript
+
 **heme** `private` - EHR for independent practices · monolith on InterSystems IRIS Native · TypeScript + React + Vite · custom design system, FHIR R4 layer in flight
 
 **UDKS** - `private` - Unified Disease-Knowledge System · resolves any clinical code to cited reference knowledge · UMLS-CUI spine reconciled with Mondo · FHIR R4 terminology service · citation-faithful GraphRAG built last
@@ -41,14 +43,14 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 **FAL** - Omnichannel patient communication · Twilio + Zenoti integration
 
-**LITMUS** - OpenAI verification protocol · fail-closed grounding layer where a generated claim acts only when it carries a warrant the gate can re-check against the domain's source of truth · public, early-stage · TypeScript
-
 ---
 
 ## Papers
 
 | Paper | Description |
 |:------|:------------|
+| [Litmus: The Admissible Set](https://doi.org/10.5281/zenodo.21227402) | Verification mechanisms for safely integrating AI into high-stakes practice - a claim acts only when it carries a warrant that can be re-checked against the source of truth · Zenodo preprint, 2026 |
+| [Litmus: The Admissible Set (System Architecture)](https://doi.org/10.5281/zenodo.21227855) | System-architecture companion - model-pluggable agent runtime, standardized tool registry, and a fail-closed verification spine · Zenodo preprint, 2026 |
 | [Four-Loop Convergence](papers/four-loop-convergence/four-loop-convergence.md) | Iterative depth as a universal computational primitive - why feedback systems converge at ~4 iterations across neural computation, immunology, crystallography, and cognition |
 | [The Other Side of the Room](papers/the-other-side-of-the-room/the-other-side-of-the-room.md) | Roommates, mental health leave, and the case for inclusive university policy - examining the evidence gap surrounding roommate impact when students return from psychiatric hospitalization |
 
@@ -60,6 +62,7 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 | Project | What it does | |
 |:--------|:-------------|:-:|
+| **LITMUS** | Open verification framework for AI-generated claims - fail-closed grounding layer; a claim acts only when it carries a warrant the gate can re-check against the source of truth, refusing by default otherwise | [repo](https://github.com/jamesrosing/litmus) · [paper](https://doi.org/10.5281/zenodo.21227402) |
 | **heme** `private` | EHR for 1-5 provider private practices - real IRIS Native persistence, monolith, TypeScript + React + Vite, custom design system, FHIR R4 layer in flight | - |
 | **UDKS** `private` | Unified Disease-Knowledge System - resolves a clinical code to cited reference knowledge through a UMLS-CUI spine reconciled with Mondo, exposed as a FHIR R4 terminology service | - |
 | **create-autoresearch** | Autonomous AI research loops for webapps - 9 optimization modes, auto-detects stack | [repo](https://github.com/jamesrosing/autoresearch) · [npm](https://www.npmjs.com/package/create-autoresearch) |
@@ -76,7 +79,6 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 | **frontend-quality-auditor** | Automated design-system QA - WCAG 2.1 AA, PRD validation | [repo](https://github.com/tacit-code/frontend-quality-auditor) |
 | **deep-agents-ui** | Custom UI for deep agent workflows | [repo](https://github.com/tacit-code/deep-agents-ui) |
 | **tebra-mcp-server** | MCP server for Tebra/Kareo practice management - 45 SOAP + FHIR clinical tools | [repo](https://github.com/jamesrosing/tebra-mcp-server) · [npm](https://www.npmjs.com/package/tebra-mcp-server) |
-| **LITMUS** | OpenAI verification protocol - fail-closed grounding layer; a generated claim acts only when it carries a warrant the gate can re-check against the domain's source of truth, refusing by default otherwise | - |
 
 ---
 
@@ -271,17 +273,19 @@ Real-time wind sensor and prediction model positioned 100m from shore.
 ---
 
 #### LITMUS
-OpenAI Verification Protocol
+Open Verification Framework for AI-Generated Claims
 
-A fail-closed grounding layer: a generated claim may act only when it carries a warrant the gate can re-check against the domain's source of truth, and the system refuses by default otherwise. Distinguishes weak referential warrants (a pointer to a source) from strong derivational warrants (re-running the underlying query, test, or computation), and routes the important-but-unverifiable case to a human with the evidence laid out. Architecture and principles are published; the first vertical, SMS delivery-truth and response attribution for FAL, is in implementation. Built vertical-first, the portable contract is extracted only once two real verticals share it.
+A fail-closed grounding layer: a generated claim may act only when it carries a warrant the gate can re-check against the domain's source of truth, and the system refuses by default otherwise. Distinguishes weak referential warrants (a pointer to a source) from strong derivational warrants (re-running the underlying query, test, or computation), and routes the important-but-unverifiable case to a human with the evidence laid out. Principles, synthesis, and architecture are published in the repository; two companion preprints are on Zenodo. The first vertical, SMS delivery-truth and response attribution, is in implementation. Built vertical-first, the portable contract is extracted only once two real verticals share it.
 
 `TypeScript`
 
 - Fail-closed gate: refuses by default unless a claim carries a re-checkable warrant
 - Referential vs derivational warrants - pointer to a source vs re-running the query/test/computation
 - Important-but-unverifiable claims routed to a human with evidence laid out
-- First vertical: SMS delivery-truth and response attribution for FAL
+- Two preprints: [Litmus: The Admissible Set](https://doi.org/10.5281/zenodo.21227402) · [System Architecture](https://doi.org/10.5281/zenodo.21227855)
 - Vertical-first; portable contract extracted only once two verticals share it
+
+-> [View Repository](https://github.com/jamesrosing/litmus)
 
 </details>
 
@@ -296,7 +300,7 @@ A fail-closed grounding layer: a generated claim may act only when it carries a 
 | **Credentials** | MD, FACS |
 | **Specialty** | Plastic & Reconstructive Surgery |
 | **Practice** | [Allure MD](https://allure-md.com) - Newport Beach, CA |
-| **Experience** | 14 years clinical |
+| **Experience** | 15 years clinical |
 | **Affiliations** | American Board of Plastic Surgery · ASPS · Allergan Partner (14+ yrs) |
 | **Engineering** | Junior Developer -> AI Systems Architect |
 | **Published** | npm · [indexer-ai](https://www.npmjs.com/package/indexer-ai) · [create-autoresearch](https://www.npmjs.com/package/create-autoresearch) · [tebra-mcp-server](https://www.npmjs.com/package/tebra-mcp-server) · [zenoti-mcp-server](https://www.npmjs.com/package/zenoti-mcp-server) |
