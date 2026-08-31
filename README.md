@@ -31,6 +31,8 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 **writ** `private` - Fail-closed medical-necessity adjudication and appeal engine · argues appeals from the payer's own written coverage policy; every citation re-verified verbatim against its source by a gate the generator cannot influence · 90.5% validated overturn rate (19 of 21 claims scored against actual payer determinations, retrospective replay, July 2026) · pre-registered kill-test with the negative result published · TypeScript · X12 835 · CMS Coverage API · built on [tebra-mcp-server](https://github.com/jamesrosing/tebra-mcp-server)
 
+**CHART** `private` - Versioned index of US payer coverage policy · 18,580 captured documents, 3,836 policies, 3,386 warrant-verified criteria · served as a remote MCP server that resolves the governing policy for an authority, code, and date; fails closed and returns conflicts · architecture and evaluation published: [disclosure](https://chart.hemeehr.com/disclosure)
+
 **LITMUS** - Open verification protocol for AI-generated claims · a claim acts only when it carries a warrant the gate can re-check against the domain's source of truth; refuses otherwise · two Zenodo preprints: [paper](https://doi.org/10.5281/zenodo.21227402) · [architecture](https://doi.org/10.5281/zenodo.21227855) · [repo](https://github.com/jamesrosing/litmus) · TypeScript
 
 **heme** `private` - EHR for independent practices on InterSystems IRIS Native · sign-and-lock documentation, full billing pipeline in IRIS transactions, PHI access audited at the repository layer · in late-stage parallel validation for in-office deployment · TypeScript · React
@@ -63,6 +65,7 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 | Project | What it does | |
 |:--------|:-------------|:-:|
 | **writ** `private` | Fail-closed medical-necessity adjudication and appeal engine - argues appeals from the payer's own written coverage policy, every citation re-verified verbatim against its source by a gate the generator cannot influence; 90.5% validated overturn rate (19 of 21 claims, retrospective replay, July 2026) | - |
+| **CHART** `private` | Versioned index of US payer coverage policy - 18,580 captured documents, 3,836 policies, 3,386 warrant-verified criteria; a remote MCP server that resolves the governing policy for an authority, code, and date, failing closed and returning conflicts | [disclosure](https://chart.hemeehr.com/disclosure) |
 | **LITMUS** | Open verification framework for AI-generated claims - fail-closed grounding layer; a claim acts only when it carries a warrant the gate can re-check against the source of truth, refusing by default otherwise | [repo](https://github.com/jamesrosing/litmus) · [paper](https://doi.org/10.5281/zenodo.21227402) |
 | **heme** `private` | EHR for 1-5 provider private practices - real IRIS Native persistence, monolith, TypeScript + React + Vite, custom design system, FHIR R4 layer in flight | - |
 | **DOCK** `private` | Hosted multi-tenant MCP gateway for practice management - Tebra + Zenoti, with a documentation knowledge layer | - |
