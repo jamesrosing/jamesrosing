@@ -29,19 +29,19 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 ### Currently Building
 
-**LITMUS** - Open verification framework for AI-generated claims · fail-closed grounding layer where a generated claim acts only when it carries a warrant the gate can re-check against the domain's source of truth · two preprints published: [paper](https://doi.org/10.5281/zenodo.21227402) · [architecture](https://doi.org/10.5281/zenodo.21227855) · [repo](https://github.com/jamesrosing/litmus) · TypeScript
+**writ** `private` - Fail-closed medical-necessity adjudication and appeal engine · argues appeals from the payer's own written coverage policy; every citation re-verified verbatim against its source by a gate the generator cannot influence · 90.5% validated overturn rate (19 of 21 claims scored against actual payer determinations, retrospective replay, July 2026) · pre-registered kill-test with the negative result published · TypeScript · X12 835 · CMS Coverage API · built on [tebra-mcp-server](https://github.com/jamesrosing/tebra-mcp-server)
 
-**heme** `private` - EHR for independent practices · monolith on InterSystems IRIS Native · TypeScript + React + Vite · custom design system, FHIR R4 layer in flight
+**LITMUS** - Open verification protocol for AI-generated claims · a claim acts only when it carries a warrant the gate can re-check against the domain's source of truth; refuses otherwise · two Zenodo preprints: [paper](https://doi.org/10.5281/zenodo.21227402) · [architecture](https://doi.org/10.5281/zenodo.21227855) · [repo](https://github.com/jamesrosing/litmus) · TypeScript
 
-**UDKS** - `private` - Unified Disease-Knowledge System · resolves any clinical code to cited reference knowledge · UMLS-CUI spine reconciled with Mondo · FHIR R4 terminology service · citation-faithful GraphRAG built last
+**heme** `private` - EHR for independent practices on InterSystems IRIS Native · sign-and-lock documentation, full billing pipeline in IRIS transactions, PHI access audited at the repository layer · in late-stage parallel validation for in-office deployment · TypeScript · React
 
-**AEON** - Longevity intelligence platform · 400+ biomarkers · 30+ concurrent agents · multi-omics
+**DOCK** `private` - Hosted multi-tenant MCP gateway for practice management (Tebra + Zenoti) with a documentation knowledge layer
 
-**create-autoresearch** - Autonomous AI research loops for web apps · adapts [karpathy/autoresearch](https://github.com/karpathy/autoresearch) for webapp optimization · published on [npm](https://www.npmjs.com/package/create-autoresearch)
+**AEON** - Longevity intelligence platform · 400+ biomarkers across genomics, proteomics, and metabolomics · multi-agent orchestration over MCP and the Agent SDK
 
-**indexer-ai** - Universal code indexer for AI assistants · published on [npm](https://www.npmjs.com/package/indexer-ai)
+**indexer-ai** - AST-based code indexer for LLM context · published on [npm](https://www.npmjs.com/package/indexer-ai)
 
-**FAL** - Omnichannel patient communication · Twilio + Zenoti integration
+**FAL** - Omnichannel patient communications and AI booking, in production at [allure-md.com](https://allure-md.com) · Agent SDK · Twilio · Zenoti
 
 ---
 
@@ -52,7 +52,7 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 | [Litmus: The Admissible Set](https://doi.org/10.5281/zenodo.21227402) | Verification mechanisms for safely integrating AI into high-stakes practice - a claim acts only when it carries a warrant that can be re-checked against the source of truth · Zenodo preprint, 2026 |
 | [Litmus: The Admissible Set (System Architecture)](https://doi.org/10.5281/zenodo.21227855) | System-architecture companion - model-pluggable agent runtime, standardized tool registry, and a fail-closed verification spine · Zenodo preprint, 2026 |
 | [Four-Loop Convergence](papers/four-loop-convergence/four-loop-convergence.md) | Iterative depth as a universal computational primitive - why feedback systems converge at ~4 iterations across neural computation, immunology, crystallography, and cognition |
-| [The Other Side of the Room](papers/the-other-side-of-the-room/the-other-side-of-the-room.md) | Roommates, mental health leave, and the case for inclusive university policy - examining the evidence gap surrounding roommate impact when students return from psychiatric hospitalization |
+| [The Other Side of the Room](papers/the-other-side-of-the-room/the-other-side-of-the-room.md) | Roommates, health leave, and the case for inclusive university policy · *Journal of American College Health*, in press (2026) |
 
 ---
 
@@ -62,8 +62,10 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 | Project | What it does | |
 |:--------|:-------------|:-:|
+| **writ** `private` | Fail-closed medical-necessity adjudication and appeal engine - argues appeals from the payer's own written coverage policy, every citation re-verified verbatim against its source by a gate the generator cannot influence; 90.5% validated overturn rate (19 of 21 claims, retrospective replay, July 2026) | - |
 | **LITMUS** | Open verification framework for AI-generated claims - fail-closed grounding layer; a claim acts only when it carries a warrant the gate can re-check against the source of truth, refusing by default otherwise | [repo](https://github.com/jamesrosing/litmus) · [paper](https://doi.org/10.5281/zenodo.21227402) |
 | **heme** `private` | EHR for 1-5 provider private practices - real IRIS Native persistence, monolith, TypeScript + React + Vite, custom design system, FHIR R4 layer in flight | - |
+| **DOCK** `private` | Hosted multi-tenant MCP gateway for practice management - Tebra + Zenoti, with a documentation knowledge layer | - |
 | **UDKS** `private` | Unified Disease-Knowledge System - resolves a clinical code to cited reference knowledge through a UMLS-CUI spine reconciled with Mondo, exposed as a FHIR R4 terminology service | - |
 | **create-autoresearch** | Autonomous AI research loops for webapps - 9 optimization modes, auto-detects stack | [repo](https://github.com/jamesrosing/autoresearch) · [npm](https://www.npmjs.com/package/create-autoresearch) |
 | **indexer-ai** | Universal code indexer - 3.6x faster with Worker Threads, 10K files in ~25s | [repo](https://github.com/tacit-code/indexer) · [npm](https://www.npmjs.com/package/indexer-ai) |
