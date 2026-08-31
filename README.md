@@ -35,7 +35,7 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 
 **heme** `private` - EHR for independent practices on InterSystems IRIS Native · sign-and-lock documentation, full billing pipeline in IRIS transactions, PHI access audited at the repository layer · in late-stage parallel validation for in-office deployment · TypeScript · React
 
-**DOCK** - Hosted multi-tenant MCP gateway for practice management (Tebra + Zenoti) with a documentation knowledge layer
+**DOCK** `private` - Hosted multi-tenant MCP gateway for practice management (Tebra + Zenoti) with a documentation knowledge layer
 
 **AEON** - Longevity intelligence platform · 400+ biomarkers across genomics, proteomics, and metabolomics · multi-agent orchestration over MCP and the Agent SDK
 
@@ -65,7 +65,7 @@ Node.js · PostgreSQL · Supabase · Redis · Docker · Vercel · Claude · Open
 | **writ** `private` | Fail-closed medical-necessity adjudication and appeal engine - argues appeals from the payer's own written coverage policy, every citation re-verified verbatim against its source by a gate the generator cannot influence; 90.5% validated overturn rate (19 of 21 claims, retrospective replay, July 2026) | - |
 | **LITMUS** | Open verification framework for AI-generated claims - fail-closed grounding layer; a claim acts only when it carries a warrant the gate can re-check against the source of truth, refusing by default otherwise | [repo](https://github.com/jamesrosing/litmus) · [paper](https://doi.org/10.5281/zenodo.21227402) |
 | **heme** `private` | EHR for 1-5 provider private practices - real IRIS Native persistence, monolith, TypeScript + React + Vite, custom design system, FHIR R4 layer in flight | - |
-| **DOCK** | Hosted multi-tenant MCP gateway for practice management - Tebra + Zenoti, with a documentation knowledge layer | - |
+| **DOCK** `private` | Hosted multi-tenant MCP gateway for practice management - Tebra + Zenoti, with a documentation knowledge layer | - |
 | **UDKS** `private` | Unified Disease-Knowledge System - resolves a clinical code to cited reference knowledge through a UMLS-CUI spine reconciled with Mondo, exposed as a FHIR R4 terminology service | - |
 | **create-autoresearch** | Autonomous AI research loops for webapps - 9 optimization modes, auto-detects stack | [repo](https://github.com/jamesrosing/autoresearch) · [npm](https://www.npmjs.com/package/create-autoresearch) |
 | **indexer-ai** | Universal code indexer - 3.6x faster with Worker Threads, 10K files in ~25s | [repo](https://github.com/tacit-code/indexer) · [npm](https://www.npmjs.com/package/indexer-ai) |
